@@ -1,0 +1,3 @@
+FROM alpine
+RUN apk add --update py3-pip
+RUN pip3 install awscli
