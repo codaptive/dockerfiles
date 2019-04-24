@@ -1,0 +1,3 @@
+FROM alpine
+RUN apk add --update coreutils py2-pip curl bash jq
+RUN pip2 install awscli
